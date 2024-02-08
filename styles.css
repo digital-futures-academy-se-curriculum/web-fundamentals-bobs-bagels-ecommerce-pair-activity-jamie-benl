@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #5e503f;
+    --secondary-color: #a9927d;
+    --bg-color: #f2f4f3;
+    --tertiary-color: #49111c;
+    --text-color: #0a0908;
+}
+
+* {
+    font-family: "Single Day", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--bg-color);
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.logo {
+    width: 6%;
+    height: 6%;
+    margin: 1%;
+}
+
+#nav-items {
+    justify-content: space-between;
+    border: 2px solid #0a0908;
+}
+
+.left-side {
+    justify-content: center;
+    padding: 10%;
+}
+
+.right-side {
+    padding-right: 5%;
+}
